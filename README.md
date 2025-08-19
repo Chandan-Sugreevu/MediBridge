@@ -1,85 +1,71 @@
-🌍 Inspiration
-Every year, billions of dollars in unused medications are discarded by:
+# 🚀 MediBridge  
+*Connecting surplus medicine to those in need*
 
-Pharmacies
+## 🌍 Inspiration  
+Every year, **billions of dollars** worth of unused medications are discarded by:  
+- Pharmacies  
+- Hospitals  
+- Nursing homes  
 
-Hospitals
+Hospitals alone waste over **$800 million** of usable drugs annually. Meanwhile, **1 in 3 Americans skip medications due to cost**.  
 
-Nursing homes
+MediBridge aims to **bridge the gap** between wasted medications and underserved communities.  
 
-Much of this waste happens simply because of expiration dates. In fact, hospitals alone discard over $800 million worth of usable drugs annually.
+---
 
-At the same time, 1 in 3 Americans skip prescribed medications due to cost. This highlights a serious problem of waste on one side and unmet medical need on the other.
+## 💡 What It Does  
+MediBridge connects:  
+- 🏥 **Pharmacies** with excess or soon-to-expire drugs offering steep discounts  
+- 🏘️ **Nonprofits & clinics** serving vulnerable populations, including shelters and community health centers  
 
-MediBridge was created to bridge this gap.
+This reduces waste and improves access to essential medicine, creating **environmental** and **social impact**.  
 
-💡 What It Does
-MediBridge connects:
+---
 
-Pharmacies with excess or soon‑to‑expire medications that can be offered at steep discounts.
+## 🏗️ Tech Stack  
 
-Nonprofits and clinics that serve vulnerable communities, including health centers, aid organizations, and shelters.
+| Frontend     | Backend        | Database | External APIs           | Other              |
+|--------------|----------------|----------|------------------------|--------------------|
+| React        | Flask (Python) | SQLite   | NDC Directory API       | Google OAuth       |
+| Tailwind CSS | REST Endpoints |          | Mapbox API (Location)  |                    |
 
-By redistributing surplus medicine, MediBridge reduces waste while improving affordability and access to essential drugs.
+---
 
-🛠️ How We Built It
-Frontend: React, HTML, CSS, JavaScript, Tailwind CSS
+## ⚙️ How It Works  
 
-Authentication: Google OAuth (secure login)
+1. **Login** with Google OAuth  
+2. Choose role:  
+   - 🏪 **Pharmacy:** List surplus medications by NDC code, price, expiration date, etc.  
+   - 🤝 **Nonprofit:** Search for medications by drug name and location; results show nearest pharmacies with availability.  
+3. Medication info is fetched from **NDC Directory API** and stored in a secure SQLite database.
 
-Mapping & Location Services: Mapbox API
+---
 
-Backend: Flask with multiple RESTful endpoints
+## 🎉 Features & Accomplishments  
 
-Database: SQLite (for user, drug, and pharmacy data)
+- ✅ Full-stack app deployed with React + Flask  
+- 🔐 Secure Google Authentication integration  
+- 📍 Location-based medication search via Mapbox API  
+- 📈 Practical experience with APIs, databases, and user roles  
+- 🤝 Collaborative team effort under hackathon constraints  
 
-External API: NDC Directory API (for verified drug metadata)
+---
 
-⚙️ How It Works
-Users log in via Google Authentication.
+## 🔧 Future Enhancements  
 
-They select a role:
+- 🔎 Advanced filtering (radius, brand, dosage)  
+- 📲 Alert system for nonprofits when meds become available  
+- 📊 Analytics dashboards for usage insights  
+- 🧱 Migrate to scalable PostgreSQL backend  
+- ✅ Verification & incentives to improve listing quality  
 
-Pharmacy: List surplus medications (via NDC code, price, expiration date, etc.). Drug details auto‑populate from the NDC API.
+---
 
-Nonprofit: Search for needed medications and get listings prioritized by proximity.
+## 📦 Getting Started  
 
-All data is stored in a secure SQLite database and displayed in a searchable marketplace.
+### Requirements  
+- Node.js & npm  
+- Python 3.9+ and Flask  
+- SQLite  
 
-🚀 Features
-✅ User authentication with Google OAuth
-✅ Role‑based workflows (pharmacy vs nonprofit)
-✅ Real‑time drug lookup via NDC Directory API
-✅ Location‑based search and map integration with Mapbox
-✅ Responsive UI powered by React + Tailwind CSS
-
-🏆 Accomplishments We're Proud Of
-Built and deployed a full‑stack web application in under hackathon time constraints.
-
-Successfully integrated Google OAuth and Mapbox API.
-
-Gained practical skills in frontend‑backend integration, session management, and database design.
-
-Strong teamwork with fast adaptability under pressure.
-
-📚 What We Learned
-Best practices in Git/GitHub collaboration
-
-End‑to‑end full‑stack debugging
-
-Secure implementation of authentication workflows
-
-Designing REST APIs for scalable integration
-
-🔮 What's Next for MediBridge
-We plan to expand the application with:
-
-🔍 Advanced medication search (by radius, brand, dosage forms)
-
-📬 Email/SMS alerts when medications of interest become available
-
-📊 Analytics dashboards for nonprofits & pharmacies
-
-🧱 Scalable backend upgrade to PostgreSQL with cloud deployment
-
-✅ Pharmacy verification & incentive systems to encourage responsible listings
+### Quick Setup  
