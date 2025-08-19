@@ -67,5 +67,3 @@ This reduces waste and improves access to essential medicine, creating **environ
 - Node.js & npm  
 - Python 3.9+ and Flask  
 - SQLite  
-
-### Quick Setup  
