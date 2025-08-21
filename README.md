@@ -60,10 +60,3 @@ This reduces waste and improves access to essential medicine, creating **environ
 - ✅ Verification & incentives to improve listing quality  
 
 ---
-
-## 📦 Getting Started  
-
-### Requirements  
-- Node.js & npm  
-- Python 3.9+ and Flask  
-- SQLite  
